@@ -28,8 +28,8 @@
   background: #f64c72;
   color: #f2f2f2;
   border-color: #f64c72;
-  -webkit-box-shadow: rgba(85, 61, 103, 0.5) 0px 10px 10px -10px;
-          box-shadow: rgba(85, 61, 103, 0.5) 0px 10px 10px -10px;
+  -webkit-box-shadow: rgba(30, 39, 46, 0.5) 0px 10px 10px -10px;
+          box-shadow: rgba(30, 39, 46, 0.5) 0px 10px 10px -10px;
   -webkit-transition: 0.3s ease-in;
   transition: 0.3s ease-in;
   z-index: 3;
@@ -129,7 +129,7 @@ a {
 }
 
 a:hover {
-  color: #553d67;
+  color: #1e272e;
 }
 
 .navbar {
@@ -153,7 +153,7 @@ a:hover {
 }
 
 .navbar .navbar-nav .nav-item .nav-link {
-  color: #f64c72;
+  color: #fff;
   padding: 0.5rem 1rem;
   font-weight: 600;
   letter-spacing: 1px;
@@ -163,7 +163,7 @@ a:hover {
 }
 
 .navbar .navbar-nav .nav-item .nav-link:hover {
-  background: #3535b6;
+  background: #f76485;
 }
 
 .navbar .navbar-nav .nav-item .button {
@@ -186,7 +186,7 @@ a:hover {
 }
 
 .navbar.scrolled .navbar-nav .nav-item .nav-link:hover {
-  background: white;
+  background: #f76485;
 }
 
 .navbar.scrolled .navbar-nav .nav-item .button:hover {
@@ -245,14 +245,14 @@ a:hover {
 
 .hero {
   height: 100vh;
-  background: linear-gradient(109.6deg, #2f2fa2 11.2%, #553d67 81.1%), url("../dist/img/main-hero.jpg") no-repeat bottom center;
+  background: linear-gradient(109.6deg, #2f2fa2 11.2%, #1e272e 81.1%), url("../dist/img/main-hero.jpg") no-repeat bottom center;
   background-size: cover;
   background-attachment: fixed;
   background-blend-mode: multiply;
   padding: 20vh 0;
   position: relative;
   text-align: center;
-  color: #553d67;
+  color: #1e272e;
 }
 
 .hero .hero-text {
@@ -338,8 +338,8 @@ a:hover {
 .card-holder {
   background: rgba(255, 255, 255, 0.7);
   margin: 1.5rem 0;
-  -webkit-box-shadow: rgba(85, 61, 103, 0.2) 0px 5px 5px -5px;
-          box-shadow: rgba(85, 61, 103, 0.2) 0px 5px 5px -5px;
+  -webkit-box-shadow: rgba(30, 39, 46, 0.2) 0px 5px 5px -5px;
+          box-shadow: rgba(30, 39, 46, 0.2) 0px 5px 5px -5px;
 }
 
 .card-holder .ch-image-holder .img-fluid {
@@ -365,7 +365,7 @@ a:hover {
 .card-holder .ch-content-holder .sub-heading .price h5 {
   font-size: 1.18rem;
   font-weight: 500;
-  color: #553d67;
+  color: #1e272e;
   font-family: "Josefin Sans", sans-serif;
 }
 
@@ -375,8 +375,8 @@ a:hover {
 
 .card-holder:hover {
   background: white;
-  -webkit-box-shadow: rgba(85, 61, 103, 0.5) 0px 10px 10px -10px;
-          box-shadow: rgba(85, 61, 103, 0.5) 0px 10px 10px -10px;
+  -webkit-box-shadow: rgba(30, 39, 46, 0.5) 0px 10px 10px -10px;
+          box-shadow: rgba(30, 39, 46, 0.5) 0px 10px 10px -10px;
   -webkit-transform: translateY(-0.35rem);
           transform: translateY(-0.35rem);
   -webkit-transition: 0.3s ease-in;
@@ -393,11 +393,11 @@ a:hover {
 }
 
 .what-is .heading h1 {
-  color: #553d67;
+  color: #1e272e;
 }
 
 .what-is .sub-heading {
-  color: rgba(85, 61, 103, 0.7);
+  color: rgba(30, 39, 46, 0.7);
 }
 
 .what-is .sub-heading h4 {
@@ -426,7 +426,7 @@ a:hover {
 
 .feature-wrapper .feature-content {
   margin: 1vh 0;
-  color: rgba(85, 61, 103, 0.7);
+  color: rgba(30, 39, 46, 0.7);
   font-size: 1.25rem;
   font-weight: 600;
 }
@@ -444,7 +444,7 @@ a:hover {
 }
 
 .how-works .sub-heading {
-  color: rgba(85, 61, 103, 0.7);
+  color: rgba(30, 39, 46, 0.7);
 }
 
 .how-works .sub-heading h4 {
@@ -463,12 +463,12 @@ a:hover {
 .how-works .hw-single .hws-content {
   font-size: 1.4rem;
   font-weight: 600;
-  color: rgba(85, 61, 103, 0.7);
+  color: rgba(30, 39, 46, 0.7);
 }
 
 .why-us {
   padding: 8vh 0;
-  color: #553d67;
+  color: #1e272e;
 }
 
 .why-us .wu-content-wrapper .wu-content {
@@ -489,7 +489,7 @@ a:hover {
 
 .sub-heading,
 .ec-heading {
-  color: #553d67;
+  color: #1e272e;
   padding-bottom: 2rem;
 }
 
@@ -513,7 +513,7 @@ a:hover {
 }
 
 .ec-iconbox .ec-icon-heading {
-  color: #553d67;
+  color: #1e272e;
 }
 
 .ec-iconbox .ec-icon-heading h5 {
@@ -542,8 +542,8 @@ a:hover {
   margin: 1.5rem 0;
   padding: 2.5rem 1rem;
   background: rgba(255, 255, 255, 0.7);
-  -webkit-box-shadow: rgba(85, 61, 103, 0.2) 0px 5px 5px -5px;
-          box-shadow: rgba(85, 61, 103, 0.2) 0px 5px 5px -5px;
+  -webkit-box-shadow: rgba(30, 39, 46, 0.2) 0px 5px 5px -5px;
+          box-shadow: rgba(30, 39, 46, 0.2) 0px 5px 5px -5px;
 }
 
 .wwd-content-block .icon-holder {
@@ -566,8 +566,8 @@ a:hover {
 
 .wwd-content-block:hover {
   background: white;
-  -webkit-box-shadow: rgba(85, 61, 103, 0.5) 0px 10px 10px -10px;
-          box-shadow: rgba(85, 61, 103, 0.5) 0px 10px 10px -10px;
+  -webkit-box-shadow: rgba(30, 39, 46, 0.5) 0px 10px 10px -10px;
+          box-shadow: rgba(30, 39, 46, 0.5) 0px 10px 10px -10px;
   -webkit-transform: translateY(-0.25rem);
           transform: translateY(-0.25rem);
   -webkit-transition: 0.4s ease-in;
@@ -619,7 +619,7 @@ a:hover {
 }
 
 .how-it-works.row .col-7 h5 {
-  color: #553d67;
+  color: #1e272e;
   font-weight: 900;
   letter-spacing: 1px;
   font-size: 1.5rem;
@@ -627,14 +627,14 @@ a:hover {
 }
 
 .how-it-works.row .col-7 p {
-  color: #553d67;
+  color: #1e272e;
   font-size: 1rem;
   line-height: 1.9rem;
   font-weight: 500;
 }
 
 .how-it-works.row .col-7 ul li {
-  color: #553d67;
+  color: #1e272e;
   font-size: 1rem;
   line-height: 1.9rem;
   font-weight: 500;
@@ -750,13 +750,13 @@ a:hover {
 .review-content-wrapper .reviewer-info .name {
   font-size: 0.9rem;
   line-height: 1rem;
-  color: #6f5087;
+  color: #32414d;
 }
 
 .review-content-wrapper .reviewer-info .company {
   font-size: 0.8rem;
   line-height: 0.9rem;
-  color: #8966a4;
+  color: #465b6c;
 }
 
 .review-content-wrapper .review-text p {
@@ -783,7 +783,7 @@ a:hover {
   line-height: 2.2rem;
   font-weight: 600;
   margin: 5px 0 30px 0;
-  color: #553d67;
+  color: #1e272e;
   text-transform: capitalize;
 }
 
@@ -799,7 +799,7 @@ a:hover {
 
 .contact .contact-box p span {
   font-size: 1.1rem;
-  color: #553d67;
+  color: #1e272e;
   font-weight: 500;
   margin-left: 5px;
   font-family: "Josefin Sans", sans-serif;
@@ -807,7 +807,7 @@ a:hover {
 
 .contact .contact-box p span a {
   text-decoration: none;
-  color: #553d67;
+  color: #1e272e;
   font-family: "Josefin Sans", sans-serif;
 }
 
@@ -845,7 +845,7 @@ a:hover {
 }
 
 .area-cover .tabs .tab a {
-  color: #553d67;
+  color: #1e272e;
   font-size: 1rem;
   margin-top: -10px;
   text-transform: capitalize;
@@ -1002,8 +1002,8 @@ a:hover {
   margin: 3% 0;
   padding: 4%;
   border-radius: 0;
-  -webkit-box-shadow: 0px 5px 5px -5px rgba(85, 61, 103, 0.4);
-          box-shadow: 0px 5px 5px -5px rgba(85, 61, 103, 0.4);
+  -webkit-box-shadow: 0px 5px 5px -5px rgba(30, 39, 46, 0.4);
+          box-shadow: 0px 5px 5px -5px rgba(30, 39, 46, 0.4);
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1026,7 +1026,7 @@ a:hover {
 }
 
 .pricing .service-template .st-header h4 {
-  color: #553d67;
+  color: #1e272e;
   font-size: 1.4rem;
   font-weight: 900;
   text-transform: uppercase;
@@ -1052,7 +1052,7 @@ a:hover {
   margin-top: 15px;
   font-size: 0.92rem;
   font-weight: 700;
-  color: #553d67;
+  color: #1e272e;
 }
 
 .pricing .service-template .st-body .st-content ul {
@@ -1089,8 +1089,8 @@ a:hover {
   background: white;
   -webkit-transform: scale(1.01, 1.01);
           transform: scale(1.01, 1.01);
-  -webkit-box-shadow: 0px 10px 10px -10px rgba(85, 61, 103, 0.4);
-          box-shadow: 0px 10px 10px -10px rgba(85, 61, 103, 0.4);
+  -webkit-box-shadow: 0px 10px 10px -10px rgba(30, 39, 46, 0.4);
+          box-shadow: 0px 10px 10px -10px rgba(30, 39, 46, 0.4);
   -webkit-transition: 0.4s ease-in;
   transition: 0.4s ease-in;
 }
@@ -1100,15 +1100,12 @@ a:hover {
     padding-left: 10%;
   }
   .hero .hero-text .heading h1 {
-    font-size: 1.7rem;
-    line-height: 2.9rem;
-  }
-  .hero .hero-text .sub-heading {
-    margin-left: 20%;
+    font-size: 2.8rem;
+    line-height: 3.9rem;
   }
   .hero .hero-text .sub-heading h5 {
-    font-size: 1rem;
-    line-height: 1.3rem;
+    font-size: 1.3rem;
+    line-height: 2.3rem;
     font-weight: 500;
   }
   .review-text p {
@@ -1120,19 +1117,13 @@ a:hover {
   .heading h1 {
     font-size: 2.4rem;
   }
-  .hero .hero-text .hero-text-content {
-    padding-left: 10%;
-  }
   .hero .hero-text .heading h1 {
-    font-size: 1.5rem;
-    line-height: 1.8rem;
-  }
-  .hero .hero-text .sub-heading {
-    margin-left: 20%;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
   }
   .hero .hero-text .sub-heading h5 {
-    font-size: 0.9rem;
-    line-height: 1.1rem;
+    font-size: 1.1rem;
+    line-height: 2rem;
     font-weight: 500;
   }
   .hero-shapes .hs-content .hs-content-text {
@@ -1253,14 +1244,11 @@ a:hover {
   }
   .hero .hero-text {
     padding-top: 15vh;
-    text-align: left;
+    text-align: center;
   }
   .hero .hero-text .hero-text-content {
     padding-left: 1%;
     text-align: left;
-  }
-  .hero .hero-text .sub-heading {
-    display: none;
   }
   .hero .hero-text .button-second {
     display: none;
@@ -1316,7 +1304,7 @@ body {
 }
 
 .navbar-nav .active {
-  background: white;
+  background: #f76485;
 }
 
 ::-moz-selection {
