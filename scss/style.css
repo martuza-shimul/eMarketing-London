@@ -15,7 +15,7 @@
 
 .button {
   background: #2f2fa2;
-  color: #f64c72;
+  color: #fff;
   padding: 1rem 1.5rem;
   font-weight: 700;
   border: 1.5px solid #2f2fa2;
@@ -43,7 +43,6 @@
 
 .button-second:hover {
   background: #2f2fa2;
-  color: #f64c72;
   border-color: #2f2fa2;
 }
 
@@ -250,7 +249,7 @@ a:hover {
   background-size: cover;
   background-attachment: fixed;
   background-blend-mode: multiply;
-  padding: 30vh 0 20vh 0;
+  padding: 20vh 0;
   position: relative;
   text-align: center;
   color: #553d67;
@@ -260,28 +259,27 @@ a:hover {
   padding: 5vh 0;
 }
 
-.hero .hero-text .heading h1 {
+.hero .hero-text .display h1 {
   color: #fff;
-  font-size: 2rem;
-  line-height: 3.1rem;
+  font-size: 3.5rem;
+  line-height: 5.5rem;
   font-weight: 700;
-  text-transform: capitalize;
-  letter-spacing: 2px;
-  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .hero .hero-text .sub-heading {
-  margin-left: 15%;
   color: #f2f2f2;
   padding: 1vh 0;
 }
 
 .hero .hero-text .sub-heading h5 {
-  font-size: 1.1rem;
-  line-height: 1.8rem;
+  font-size: 1.3rem;
+  line-height: 2.8rem;
   font-weight: 500;
   letter-spacing: 1px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .hero .hero-text .hero-button {
