@@ -8,7 +8,7 @@
   font-size: 2rem;
   line-height: 3.1rem;
   font-weight: 900;
-  color: #f64c72;
+  color: #2f2fa2;
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 2px;
@@ -246,7 +246,7 @@ a:hover {
 
 .hero {
   height: 100vh;
-  background: linear-gradient(109.6deg, #2f2fa2 11.2%, #1e272e 81.1%), url("../dist/img/main-hero.jpg") no-repeat bottom center;
+  background: linear-gradient(109.6deg, #2f2fa2 11.2%, #553d67 81.1%), url("../dist/img/main-hero.jpg") no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   background-blend-mode: multiply;
@@ -542,6 +542,7 @@ a:hover {
 .wwd-content-block {
   margin: 1.5rem 0;
   padding: 2.5rem 1rem;
+  color: #553d67;
   background: rgba(255, 255, 255, 0.7);
   -webkit-box-shadow: rgba(30, 39, 46, 0.2) 0px 5px 5px -5px;
           box-shadow: rgba(30, 39, 46, 0.2) 0px 5px 5px -5px;
@@ -554,6 +555,7 @@ a:hover {
 .wwd-content-block h5 {
   font-size: 1.2rem;
   font-weight: 600;
+  color: #2f2fa2;
   letter-spacing: 1px;
   line-height: 1.9rem;
   text-transform: capitalize;
@@ -573,6 +575,22 @@ a:hover {
           transform: translateY(-0.25rem);
   -webkit-transition: 0.4s ease-in;
   transition: 0.4s ease-in;
+}
+
+#features .wwd-content-block {
+  background: #2f2fa2;
+  color: #f2f2f2;
+  padding: 3rem 1.5rem;
+}
+
+#features .wwd-content-block h5 {
+  color: #fff;
+}
+
+#features .wwd-content-block:hover {
+  background: rgba(246, 76, 114, 0.9);
+  -webkit-transition: 0.6s ease-in-out;
+  transition: 0.6s ease-in-out;
 }
 
 .what-we-do-dif {

@@ -5,9 +5,9 @@
   background: linear-gradient(
       109.6deg,
       rgba($primary-color, 1) 11.2%,
-      rgba($text-color, 1) 81.1%
+      rgba($additional-color, 1) 81.1%
     ),
-    url("../dist/img/main-hero.jpg") no-repeat bottom center;
+    url("../dist/img/main-hero.jpg") no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   background-blend-mode: multiply;
