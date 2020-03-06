@@ -12,8 +12,18 @@
   // color: $white;
   padding: 15vh 0;
 }
+// .wwd-content {
+//   display: flex;
+//   // flex-direction: row;
+//   // align-items: stretch;
+// }
 
 .wwd-content-block {
+  width: 100%;
+  height: 100%;
+  // display: grid;
+  // align-content: space-between;
+  // justify-content: space-around;
   margin: 1.5rem 0;
   padding: 2.5rem 1rem;
   color: $additional-color;
