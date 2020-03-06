@@ -370,7 +370,7 @@
 					<div class="wwd-content-wrapper">
 						<div class="row ">
 							<div class="col">
-								<div class="row wwd-content text-center">
+								<div class="row wwd-content text-center equal">
 									
 									<div class="col-sm-6 col-md-4">
 										<div class="wwd-content-block">
@@ -445,7 +445,7 @@
 			<section id="how-it-works" class="sell-more scrollspy">
 				<div class="container-sm">
 					<div class="sm-wrapper">
-						<div class="row">
+						<div class="row d-flex align-items-center">
 							<div class="col-md-6">
 								<div class="sm-content">
 									<h3>Marketing is all about selling more TODAY</h3>
@@ -466,7 +466,7 @@
 			<section class="software">
 				<div class="container-sm">
 					<div class="sm-wrapper">
-						<div class="row">
+						<div class="row d-flex align-items-center">
 							<div class="col-md-6">
 								<div class="sm-content">
 									<h3>We Create Fully Automation Softwares So You Can Focus On Your Business</h3>
@@ -474,7 +474,7 @@
 									<button class="button button-second">Get Started</button>
 								</div>
 							</div>
-							<div class="col-md-5 offset-md-1">
+							<div class="col-md-6">
 								<div class="sm-image">
 									<img src="./dist/img/softare.png" alt="Promo image" class="img-fluid">
 								</div>
@@ -486,7 +486,7 @@
 			<section class="five-sphere">
 				<div class="container-sm">
 					<div class="sm-wrapper">
-						<div class="row">
+						<div class="row d-flex align-items-center">
 							<div class="col-md-4">
 								<div class="sm-content">
 									<h3>Five Spheres. One Mission.</h3>
@@ -751,14 +751,14 @@
 					<div class="row">
 						<div class="col-sm-6 col-md-6">
 							<div class="contact-form">
-								<form enctype="multipart/form-data" action="./dist/php/contact.php" method="POST">
+								<form  action="./dist/php/contact.php" method="POST">
 									<div class="row">
 										<div class="col-md-6">
 											<div class="form-group">
 												<input
 													type="text"
 													class="form-control"
-													placeholder=" Name: "
+													placeholder="Your Name: "
 													name="name"
 													required
 												/>
@@ -769,7 +769,7 @@
 												<input
 													type="text"
 													class="form-control"
-													placeholder="Postcode : "
+													placeholder="Company Name : "
 													name="postcode"
 													required
 												/>
@@ -828,10 +828,10 @@
 														<textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="3" name="message" required></textarea>
 													</div>
 										</div>
-										<div class="col-md-6">
+										<!-- <div class="col-md-6">
 											<div class="form-group">
 												<label for="file">Upload Image or Video (optional):
-													<!-- <input id="file" type="file" name="uploaded_file"></input> -->
+												
 												</label>
 												
 											</div>
@@ -840,7 +840,7 @@
 											<div class="form-group">
 												<input id="file" type="file" name="uploaded_file"></input>
 											</div>
-										</div>
+										</div> -->
 										
 									</div>
 
@@ -856,15 +856,18 @@
 									contact us now
 								</h3>
 								<p>
-									<img src="./dist/img/call.png" alt="Contact phone number" />
+									<!-- <img src="./dist/img/call.png" alt="Contact phone number" /> -->
+									<span class="icon"><i class="fas fa-phone-alt fa-1x"></i></span>
 									<span><a href="tel:020 8088 3646">020 8088 3646 </a></span>
 								</p>
 								<p>
-									<img src="./dist/img/send.png" alt="Contact phone number" />
-									<span>support@handyman-london.co.uk</span>
+									<!-- <img src="./dist/img/send.png" alt="Contact phone number" /> -->
+									<span class="icon"><i class="fas fa-paper-plane fa-1x"></i></span>
+									<span>support@eMarketing-london.co.uk</span>
 								</p>
 								<p class="contact-address">
-									<img src="./dist/img/location.png" alt="Contact phone number" class="img-fluid"/>
+									<!-- <img src="./dist/img/location.png" alt="Contact phone number" class="img-fluid"/> -->
+									<span class="icon"><i class="fas fa-map-marked-alt fa-1x"></i></span>
 									<span>Kemp House, 160 City Road, London, United Kingdom, EC1V 2NX</span>
 								</p>
 							</div>

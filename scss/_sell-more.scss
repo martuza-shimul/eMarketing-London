@@ -4,8 +4,12 @@
 .software,
 .five-sphere {
   padding: 5vh 0;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
   .sm-content {
-    padding: 2vh 0;
+    // padding: 2vh 0;
 
     h3 {
       color: $text-color;
@@ -31,7 +35,7 @@
   background: $primary-color;
   // padding: 10vh 0;
   .sm-content {
-    margin-top: 5vh;
+    // margin-top: 1vh;
 
     h3 {
       color: $white;

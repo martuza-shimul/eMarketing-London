@@ -436,12 +436,16 @@ a:hover {
 .software,
 .five-sphere {
   padding: 5vh 0;
-}
-
-.sell-more .sm-content,
-.software .sm-content,
-.five-sphere .sm-content {
-  padding: 2vh 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .sell-more .sm-content h3,
@@ -468,10 +472,6 @@ a:hover {
 
 .software {
   background: #2f2fa2;
-}
-
-.software .sm-content {
-  margin-top: 5vh;
 }
 
 .software .sm-content h3 {
@@ -896,6 +896,11 @@ a:hover {
   display: flex;
 }
 
+.contact .contact-box .icon {
+  color: #2f2fa2;
+  margin-right: 5px;
+}
+
 .contact .contact-box h3 {
   font-size: 1.6rem;
   line-height: 2.2rem;
@@ -1251,7 +1256,7 @@ a:hover {
     background: #2f2fa2;
   }
   .navbar-nav {
-    background: rgba(242, 242, 242, 0.95);
+    background: #553d67;
   }
   .about .image-holder {
     margin: 5% 1%;
