@@ -261,6 +261,10 @@ a:hover {
   padding: 5vh 0;
 }
 
+.hero .hero-text .heading h1 {
+  color: #fff;
+}
+
 .hero .hero-text .display h1 {
   color: #fff;
   font-size: 3.5rem;
@@ -314,23 +318,6 @@ a:hover {
 
 .hero-button {
   margin-top: 10px;
-}
-
-.thank-content {
-  padding-top: 5vh;
-}
-
-.thank-content h1,
-.thank-content h3 {
-  color: #f2f2f2;
-}
-
-.thank-content h1 {
-  font-weight: 900;
-}
-
-.thank-content h3 {
-  font-weight: 500;
 }
 
 .services {
