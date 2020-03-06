@@ -277,7 +277,7 @@ a:hover {
 
 .hero .hero-text .sub-heading h5 {
   font-size: 1.3rem;
-  line-height: 2.8rem;
+  line-height: 2.3rem;
   font-weight: 500;
   letter-spacing: 1px;
   font-family: "Montserrat", sans-serif;
@@ -430,6 +430,57 @@ a:hover {
   color: rgba(30, 39, 46, 0.7);
   font-size: 1.25rem;
   font-weight: 600;
+}
+
+.sell-more,
+.software {
+  padding: 5vh 0;
+}
+
+.sell-more .sm-content,
+.software .sm-content {
+  padding: 2vh 0;
+}
+
+.sell-more .sm-content h3,
+.software .sm-content h3 {
+  color: #1e272e;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+}
+
+.sell-more .sm-content p,
+.software .sm-content p {
+  color: #553d67;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+.software {
+  background: #2f2fa2;
+}
+
+.software .sm-content {
+  margin-top: 5vh;
+}
+
+.software .sm-content h3 {
+  color: #fff;
+}
+
+.software .sm-content p {
+  color: #f2f2f2;
+}
+
+.software .sm-content .button-second:hover {
+  background: rgba(246, 76, 114, 0.1);
+  border: 2px solid #f64c72;
 }
 
 .how-works {
